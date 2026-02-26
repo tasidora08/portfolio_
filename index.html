@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Tasi Dóra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">TD</div>
+
+    <ul class="nav-links">
+      <li><a href="#home">Kezdőlap</a></li>
+      <li><a href="#projects">Projektek</a></li>
+      <li><a href="#skills">Készségek</a></li>
+      <li><a href="#contact">Kapcsolat</a></li>
+    </ul>
+
+    <div class="controls">
+      <button id="darkToggle">🌙</button>
+      <div class="hamburger">☰</div>
+    </div>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1>Üdv, Tasi Dóra vagyok!</h1>
+  <p>Szoftverfejlesztő, és -tesztelő tanuló | Kreatív problémamegoldó</p>
+  <a href="#projects" class="btn">Munkáim megtekintése</a>
+</section>
+
+<section id="projects" class="projects">
+  <h2>Projektjeim</h2>
+  <div class="project-grid">
+
+    <div class="card">
+      <h3>Space Duck</h3>
+      <p>Csapatmunka - Blender</p>
+      <a href="#">Megtekintés</a>
+    </div>
+
+    <div class="card">
+      <h3>PixelCraft</h3>
+      <p>Godot megismerése</p>
+      <a href="#">Megtekintés</a>
+    </div>
+
+    <div class="card">
+      <h3>Könyvesbolt</h3>
+      <p>Figma megismerése</p>
+      <a href="#">Megtekintés</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="skills" class="skills">
+  <h2>Készségeim</h2>
+
+  <div class="skill">
+    <p>Python</p>
+    <div class="bar"><div class="progress py"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>HTML</p>
+    <div class="bar"><div class="progress html"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>CSS</p>
+    <div class="bar"><div class="progress css"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>C#</p>
+    <div class="bar"><div class="progress c"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>JavaScript</p>
+    <div class="bar"><div class="progress js"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>Blender</p>
+    <div class="bar"><div class="progress blend"></div></div>
+  </div>
+
+</section>
+
+<section id="contact" class="contact">
+  <h2>Kapcsolat</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Név" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <textarea id="message" placeholder="Üzenet..." required></textarea>
+    <button type="submit">Küldés</button>
+  </form>
+
+  <p id="formMessage"></p>
+</section>
+
+<footer>
+  <p>© 2026 [Neved] | Minden jog fenntartva</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
